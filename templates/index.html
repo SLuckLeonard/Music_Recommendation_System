@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Recommendation System</title>
+</head>
+<body>
+    <h1>Music Recommendation System</h1>
+    <form action="/recommend" method="POST">
+        <label for="artist_name">Enter Artist Name:</label>
+        <input type="text" id="artist_name" name="artist_name" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+    <p style="color: gray; font-size: small;">
+        Disclaimer: The dataset contains only 1,240 artists. The artist you search for may not be present in the dataset.
+    </p>
+</body>
+</html>

@@ -30,13 +30,4 @@ def recommend_artists(artist_name, n_recommendations=10):
     recommended_indices = [i[0] for i in similarity_scores[1:n_recommendations+1]]
     return data['artist'].iloc[recommended_indices]
 
-# Recommendation Test
-artist_name = 'Nirvana'
-
-# Check if the artist exists in the dataset
-if artist_name in data['artist'].values:
-    recommendations = recommend_artists(artist_name)
-    print(f"Recommendations for artist {artist_name}: {recommendations.tolist()}")
-else:
-    print(f"Artist '{artist_name}' not found in the dataset.")
 
