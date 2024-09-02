@@ -57,17 +57,11 @@ Input an artist's name into the provided field.
 Click "Get Recommendations" to see a list of similar artists.
 # Project Structure
 - <b>app.py</b>: Main Flask application file that sets up routes and handles requests.
-  <p>&nbsp; </p>
 - <b>music_recommender.py</b>: Contains the recommendation logic and functions for generating artist recommendations.
-    <p>&nbsp; </p>
 - <b>templates/</b>: Directory containing HTML templates.
-    <p>&nbsp; </p>
 - <b>index.html</b>: Homepage with a form for user input.
-    <p>&nbsp; </p>
 - <b>recommend.html</b>: Page displaying recommendations.
-    <p>&nbsp; </p>
 - <b>error.html</b>: Page showing an error message when an artist is not found.
-    <p>&nbsp; </p>
 - <b>requirements.txt</b>: List of Python dependencies for the project.
 # Disclaimer
 The dataset used contains only 1,240 artists. Some artists you search for may not be present in the dataset.
