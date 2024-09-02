@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191f6767-1335-4b3e-ac91-cb83fa2caade" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/lastfm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music_recommender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_prep.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.data_prep.executor": "Run",
+    "Python.data_test.executor": "Run",
+    "Python.music_recommender.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
